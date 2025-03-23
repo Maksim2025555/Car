@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Машини</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <button id="changeColorButton">Змінити фон на сірий
+    </button>
+
+    <script>
+        $(document).ready(function() {
+            $('#changeColorButton').click(function() {
+                $('body').css('background-color', 'grey');
+            });
+        });
+    </script>
+    <header>
+        <h1>Автомобільний світ</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Головна</a></li>
+                <li><a href="#cars">Моделі</a></li>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Ласкаво просимо до світу автомобілів</h2>
+        <p>Ми захоплюємося машинами і готові розповісти вам про найкращі моделі!</p>
+    </section>
+    <section id="cars"></section>
+        <h2>Популярні моделі</h2>
+        <div class="car-card" onclick="showDetails('Lamborghini Huracan Super Trofeo ')"></div>
+        <img src="https://www.motortrend.com/uploads/sites/11/2015/01/2015-Lamborghini-Huracan-LP-620-2-Super-Trofeo-rear-three-quarter-1.jpg?w=768&width=768&q=75&format=webp" alt="Lamborghini Huracan Super Trofeo">
+        <h3>Lamborghini Huracan Super Trofeo</h3>
+        <details>
+            <summary>Детальніше про автомобіль</summary>
+            <p></p>
+        </details>
+        <button class="buy-button" onclick="buyNow()">Купить</button>
+
+<script>
+  function buyNow() {
+    alert("Покупка совершена!");
+  
+  }
+</script>
+</div>
+        <div class="car-card" onclick="showDetails('BMW M3 G80')">
+            <img src="https://bmw.scene7.com/is/image/BMW/g80_g20-m340_dynamics_m-sport-differential_fb?qlt=80&wid=1024&fmt=webp" alt="BMW M3">
+            <h3>BMW M3</h3>
+            <details>
+            <summary>Детальніше про автомобіль</summary>
+            <p></p>
+        </details>
+            <button class="buy-button" onclick="buyNow()">Купить</button>
+
+<script>
+  function buyNow() {
+    alert("Покупка совершена!");
+  
+  }
+</script>
+        </div>
+        <div class="car-card" onclick="showDetails('Audi R8')">
+            <img src="https://res.cloudinary.com/unix-center/image/upload/c_limit,dpr_3.0,f_auto,fl_progressive,g_center,h_580,q_75,w_906/jy99ggbvbhkuzmgh7k80.jpg" alt="Audi R8">
+            <h3>Audi R8</h3>
+            <details>
+            <summary>Детальніше про автомобіль</summary>
+            <p></p>
+        </details>
+            <button class="buy-button" onclick="buyNow()">Купить</button>
+
+<script>
+  function buyNow() {
+    alert("Покупка совершена!");
+  
+  }
+</script>
+        </div>
+        <div class="car-card" onclick="showDetails('BMW M8')"></div>
+            <img src="https://www.cnet.com/a/img/resize/ca01311d08c207919d346aba349ee4e887fdd7e9/hub/2020/04/14/c01b0bd5-c01c-4ecd-918a-e3eea3539816/ogi1-2020-bmw-m8-gran-coupe-007.jpg?auto=webp&fit=crop&height=675&width=1200" alt="BMW M8">
+            <h3>BMW M8 competition grand coupe</h3>
+            <details>
+            <summary>Детальніше про автомобіль</summary>
+            <p></p>
+        </details>
+            <button class="buy-button" onclick="buyNow()">Купить</button>
+
+<script>
+  function buyNow() {
+    alert("Покупка совершена!");
+  
+  }
+</script>
+        </div>
+    </div>
+    <div class="car-card" onclick="showDetails('Ferrari SF90 Stradale ')">
+        <img src="https://autoua.net/media/uploads2/ferrari/ferrari-sf90_stradale-2020-1280-01.jpg" alt="Ferrari SF90 Stradale ">
+        <h3>Ferrari SF90 Stradale </h3>
+        <details>
+            <summary>Детальніше про автомобіль</summary>
+            <p></p>
+        </details>
+        <button class="buy-button" onclick="buyNow()">Купить</button>
+
+<script>
+  function buyNow() {
+    alert("Покупка совершена!");
+  
+  }
+</script>
+    </div>
+    <div class="car-card" onclick="showDetails('Pagani Huayra Roadster ')"></div>
+        <img src="https://www.autoblog.com/.image/t_share/MjA5MTMxMzUyODg2MjkwMjc2/image-placeholder-title.jpg" alt="Pagani Huayra Roadster">
+        <h3>Pagani Huayra Roadster</h3>
+        <details>
+            <summary>Детальніше про автомобіль</summary>
+            <p></p>
+        </details>
+        <button class="buy-button" onclick="buyNow()">Купить</button>
+
+        <script>
+          function buyNow() {
+            alert("Покупка совершена!");
+          
+          }
+        </script>
+    </div>
+    <div class="car-card" onclick="showDetails('Bugatti Chiron Super Sport 300 + ')"></div>
+        <img src="https://www.rbc.ua/static/img/c/h/chiron_super_sport_300_1_1200x675.jpg" alt="Bugatti Chiron Super Sport 300 +">
+        <h3>Bugatti Chiron Super Sport 300 +</h3>
+        <details>
+            <summary>Детальніше про автомобіль</summary>
+            <p></p>
+        </details>
+        <button class="buy-button" onclick="buyNow()">Купить</button>
+
+<script>
+  function buyNow() {
+    alert("Покупка совершена!");
+  
+  }
+</script>
+    </div>
+    <div class="car-card" onclick="showDetails('Lamborghini Revuelto ')"></div>
+        <img src="https://static.wikia.nocookie.net/thecrew/images/c/c1/TCMLamborghiniRevuelto.png/revision/latest/scale-to-width-down/1200?cb=20230911170152" alt="Lamborghini Revuelto">
+        <h3>Lamborghini Revuelto</h3>
+        <details>
+            <summary>Детальніше про автомобіль</summary>
+            <p></p>
+        </details>
+        <button class="buy-button" onclick="buyNow()">Купить</button>
+
+<script>
+  function buyNow() {
+    alert("Покупка совершена!");
+  
+  }
+</script>
+    </div>
+    <div class="car-card" onclick="showDetails('BMW M5 F90 Competition ')"></div>
+        <img src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2553/U665/IMG_25148-large.jpg" alt="BMW M5 F90 Competition ">
+        <h3>BMW M5 F90 Competition </h3>
+        <details>
+            <summary>Детальніше про автомобіль</summary>
+            <p></p>
+        </details>
+        <button class="buy-button" onclick="buyNow()">Купить</button>
+
+<script>
+  function buyNow() {
+    alert("Покупка совершена!");
+  
+  }
+</script>
+    </div>
+    <div class="car-card" onclick="showDetails('BMW X7 ')"></div>
+        <img src="https://uzr.com.ua/wp-content/uploads/2022/07/new-bmw-x7-m60.jpg" alt="BMW X7">
+        <h3>BMW X7</h3>
+        <details>
+            <summary>Детальніше про автомобіль</summary>
+            <p></p>
+        </details>
+        <button class="buy-button" onclick="buyNow()">Купить</button>
+
+<script>
+  function buyNow() {
+    alert("Покупка совершена!");
+  
+  }
+</script>
+    </div>
+    <div class="car-card" onclick="showDetails('BMW M5 G90 ')"></div>
+        <img src="https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1719335330/evo/2024/6/New%20BMW%20M5%20G90%20final-2.jpg" alt="BMW M5 G90 ">
+        <h3>BMW M5 G90 </h3>
+        <details>
+            <summary>Детальніше про автомобіль</summary>
+            <p></p>
+        </details>
+        <button class="buy-button" onclick="buyNow()">Купить</button>
+
+<script>
+  function buyNow() {
+    alert("Покупка совершена!");
+  
+  }
+</script>
+    </div>
+    <div class="car-card" onclick="showDetails('BMW M4 ')"></div>
+        <img src="https://mezha.media/wp-content/uploads/2024/05/BMW-M4-CS.jpg" alt="BMW M4 ">
+        <h3>BMW M4 </h3>
+        <details>
+            <summary>Детальніше про автомобіль</summary>
+            <p></p>
+        </details>
+        <button class="buy-button" onclick="buyNow()">Купить</button>
+
+<script>
+  function buyNow() {
+    alert("Покупка совершена!");
+  
+  }
+</script>
+    </div>
+    <div class="car-card" onclick="showDetails('Porsche Taycan 4S 79kWh ')"></div>
+        <img src="https://nextcar.ua/images/blog/603/porsche_taycan_2024__1_.jpg" alt="Porsche Taycan 4S 79kWh">
+        <h3>Porsche Taycan 4S 79kWh</h3>
+        <details>
+            <summary>Детальніше про автомобіль</summary>
+            <p></p>
+        </details>
+        <button class="buy-button" onclick="buyNow()">Купить</button>
+
+<script>
+  function buyNow() {
+    alert("Покупка совершена!");
+  
+  }
+</script>
+    </div>
+    <div class="car-card" onclick="showDetails('McLaren P1 ')"></div>
+        <img src="https://avatars.mds.yandex.net/get-verba/3587101/2a000001860cc3581244fdec9251756962cf/cattouchretcr" alt="McLaren P1">
+        <h3>McLaren P1</h3>
+        <details>
+            <summary>Детальніше про автомобіль</summary>
+            <p></p>
+        </details>
+    </div>
+    <button class="buy-button" onclick="buyNow()">Купить</button>
+
+<script>
+  function buyNow() {
+    alert("Покупка совершена!");
+  
+  }
+</script>
+    <div class="car-card" onclick="showDetails('Bentley Continental GT ')"></div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/2018_Bentley_Continental_GT_%2837965556312%29.jpg/1200px-2018_Bentley_Continental_GT_%2837965556312%29.jpg"alt="Bentley Continental GT">
+        <h3>Bentley Continental GT</h3>
+        <details>
+        <summary>Детальніше про автомобіль</summary>
+        <p></p>
+    </details>
+        <button class="buy-button" onclick="buyNow()">Купить</button>
+
+<script>
+  function buyNow() {
+    alert("Покупка совершена!");
+  
+  }
+</script>
+    </div>
+    <div class="car-card" onclick="showDetails('Gumpert Apollo S ')"></div>
+        <img src="https://www.dubicars.com/images/cc92de/wf_1300x760/levant-auto-trading/b823230d-4111-4d1b-88ca-6dd991e754e3.jpg" alt="Gumpert Apollo S">
+        <h3>Gumpert Apollo S</h3>
+        <details>
+            <summary>Детальніше про автомобіль</summary>
+            <p></p>
+        </details>
+        <button class="buy-button" onclick="buyNow()">Купить</button>
+
+<script>
+  function buyNow() {
+    alert("Покупка совершена!");
+  
+  }
+</script>
+    </div>
+    <div class="car-card" onclick="showDetails('Tesla Model S')">
+        <img src="https://res.cloudinary.com/unix-center/image/upload/c_limit,dpr_3.0,f_auto,fl_progressive,g_center,h_240,q_auto:good,w_385/opwaibwhqs9pbubxj3pa.jpg" alt="Tesla Model S">
+        <h3>Tesla Model S</h3>
+       <details>
+            <summary>Детальніше про автомобіль</summary>
+            <p></p>
+        </details>
+        <button class="buy-button" onclick="buyNow()">Купить</button>
+
+<script>
+function buyNow() {
+alert("Покупка совершена!");
+
+}
+</script>
+    </div>
+    <div class="car-card" onclick="showDetails('Porsche Carrera GT ')"></div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Porsche_Carrera_GT_-_Goodwood_Breakfast_Club_%28July_2008%29.jpg/1200px-Porsche_Carrera_GT_-_Goodwood_Breakfast_Club_%28July_2008%29.jpg" alt="Porsche Carrera GT">
+        <h3>Porsche Carrera GT</h3>
+        <details>
+            <summary>Детальніше про автомобіль</summary>
+            <p></p>
+        </details>
+        <button class="buy-button" onclick="buyNow()">Купить</button>
+
+<script>
+  function buyNow() {
+    alert("Покупка совершена!");
+  
+  }
+</script>
+    </div>
+    <div class="car-card" onclick="showDetails('Nissan GT-R ')"></div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Nissan_GT-R_front.jpg/1200px-Nissan_GT-R_front.jpg" alt="Nissan GT-R">
+        <h3>Nissan GT-R</h3>
+        <details>
+            <summary>Детальніше про автомобіль</summary>
+            <p></p>
+        </details>
+        <button class="buy-button" onclick="buyNow()">Купить</button>
+
+<script>
+  function buyNow() {
+    alert("Покупка совершена!");
+  
+  }
+</script>
+    </div>
+    <div class="car-card" onclick="showDetails(' Porsche 911 GT3 RS ')"></div>
+        <img src="https://i.ytimg.com/vi/JfLP9FdK6rE/maxresdefault.jpg" alt=" Porsche 911 GT3 RS">
+        <h3> Porsche 911 GT3 RS</h3>
+        <details>
+            <summary>Детальніше про автомобіль</summary>
+            <p></p>
+        </details>
+        <button class="buy-button" onclick="buyNow()">Купить</button>
+
+<script>
+  function buyNow() {
+    alert("Покупка совершена!");
+  
+  }
+</script>
+    </div>
+    <div class="car-card" onclick="showDetails('LAMBORGHINI URUS S ')"></div>
+        <img src="https://carsales.pxcrush.net/carsales/cars/dealer/23omq0k875m7xxhv06j9a3s6b.jpg?pxc_method=fitfill&pxc_bgtype=self&height=725&width=1087" alt="LAMBORGHINI URUS S">
+        <h3>LAMBORGHINI URUS S</h3>
+        <details>
+            <summary>Детальніше про автомобіль</summary>
+            <p></p>
+        </details>
+        <button class="buy-button" onclick="buyNow()">Купить</button>
+
+<script>
+  function buyNow() {
+    alert("Покупка совершена!");
+  
+  }
+</script>
+    </div>
+    <div class="car-card" onclick="showDetails('BMW Z4 review ')"></div>
+        <img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/01-bmw-z4-manual-2024-review-front-driving.jpg?itok=ouN9oAFt" alt="BMW Z4 review">
+        <h3>BMW Z4 review</h3>
+        <details>
+            <summary>Детальніше про автомобіль</summary>
+            <p>BMW Z4 — двомісний родстер або купе, що випускався німецькою компанією BMW. З відкритим кузовом і м'яким верхом (E85) випускався з 2002 до 2008 року. У 2006 році з'явилася версія купе металевим дахом (E86). У 2009 році автомобіль пройшов модернізацію і з тих пір випускався в одному варіанті — з жорстким складним дахом (E89).
+
+                В 2018 році дебютувало третє покоління моделі.</p>
+        </details>
+        <button class="buy-button" onclick="buyNow()">Купить</button>
+
+<script>
+  function buyNow() {
+    alert("Покупка совершена!");
+  
+  }
+</script>
+    </div>
+</section>
+    <section id="about"></section>
+        <h2>Про нас</h2>
+        <p>Ми — команда автолюбителів, яка досліджує і популяризує нові моделі автомобілів.
+            Ми стежимо за останніми тенденціями в автомобільному світі, тестуємо новинки та ділимося з вами найцікавішими оглядами, порадами та аналітикою. Наша місія — допомогти вам знайти ідеальний автомобіль, розібратися в його особливостях і зробити свідомий вибір.
+Приєднуйтеся до нас, щоб разом відкривати світ сучасного автопрому!
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Контакти</h2>
+        <form id="contact-form">
+            <label for="name">Ваше ім'я:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="message">Повідомлення:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Надіслати</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Автомобільний світ.</p>
+    </footer>
+
+    <script src="/Users/maksimhaisenok/Desktop/javascript  prezentation.js"></script>
+</body>
+</html>
